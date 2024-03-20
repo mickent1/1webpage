@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Mickent Sales">
+
+    <title>My Works</title>
+    <link rel="icon" href="profile.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    
+    <nav id="desktop-nav">
+        <div class="logo">Michael Kent</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Michael Kent</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>                    
+                <span></span>                    
+                <span></span>                    
+            </div>
+            <div class="menu-links">
+                <ul>
+                <li><a href="home.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="works.html" onclick="toggleMenu()">Works</a></li>
+                <li><a href="contact.html" onclick="toggleMenu()">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="works-section">
+        <h3 class="services">SERVICES</h3>
+        <div class="myworks-title"><h3>--- MY WORKS ---</h3></div>
+        <div class="myworks">
+            <div class="video-container" onclick="window.open('#video-portfolio', '_self')">
+                <img src="images/video.png" alt="">
+                <h3 class="video-title">VIDEO EDITING</h3>
+                <p>Basic Editing <br>Cut, Transitions, Cinematic, Montage, Short film</p>
+            </div>
+            <div class="graphic-container" onclick="window.open('#graphic-portfolio', '_self')" >
+                <img src="images/graphic.png" alt="graphic">
+                <h3 class="graph">GRAPHIC DESIGN</h3>
+                <p>LOGO MAKING, INFOGRAPHICS <br>JERSEY LAYOUT <br>MOCKUPS</p>
+            </div>
+            <div class="photo-container" onclick="window.open('#photography-section', '_self')">
+                <img src="images/photo.png" alt="">
+                <div class="photo-text">
+                <h3 class="">PHOTOGRAPHY/ <br> VIDEOGRAPHY</h3>
+                <p>PRE-NUP, PRE-DEBUT, EVENT ETC.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-portfolio">
+        <div class="videos">
+            <div class="portfolio-title"><h3>VIDEO PROJECTS</h3></div>
+            <div class="sample">
+                <h3 class="sample-title">Advertisement Video</h3>
+                <video width="750" height="450" controls autoplay muted> <source src="videos/advertisement.mp4" type="video/mp4" class="sample-video"> </video>
+            </div>
+            <div class="sample">
+                <h3 class="sample-title">Short Film</h3>
+                <video width="750" height="450" controls autoplay muted> <source src="videos/shortfilm.mp4" type="video/mp4" class="sample-video"> </video>
+            </div>
+            <div class="sample">
+                <h3 class="sample-title">School Purpose</h3>
+                <video width="750" height="450" controls autoplay muted> <source src="videos/school.mp4" type="video/mp4" class="sample-video"> </video>
+            </div>
+        </div>
+        <section id="graphic-portfolio">
+            <div class="graphic-portfolio-container">
+                <div class="graphic-portfolio-title"><h3>GRAPHIC DESIGN</h3></div>
+                <div class="sample-graphic">
+                    <h3 class="sample-graphic-title">JERSEY</h3>
+                        <div class="jersey-sample">
+                        <img src="images/flora.png" alt="Jersey">
+                        <img src="images/it.png" alt="Jersey">
+                        <img src="images/it (2).png" alt="Jersey">
+                        <img src="images/empth.png" alt="Jersey">
+                    </div>
+                </div>
+            </div>
+            <section id="photography-section">
+                <div class="photography-section-container">
+                        <h3 class="title-container-photography">PHOTOGRAPHY/VIDEOGRAPHY</h3>
+                        
+                        <div class="debut">
+                            <h3 class="debut-text">VIDEOGRAPHY</h3>
+                            <video width="500"  height="auto" controls muted> <source src="videos/pre-debut.mp4" type="video/mp4" ></video >
+                        </div>
+                    <h3 class="project-text">PHOTOGRAPHY</h3>
+                    <div class="project-container">
+                        
+                        <video width="230" controls muted class="jake"> <source src="videos/jake.mp4" type="video/mp4" ></video>
+                        <video width="230" controls muted class="lance"> <source src="videos/lance.mp4" type="video/mp4" ></video >
+                    </div>
+                </div>
+                <footer>
+                    <button class="footerbutton" onclick="window.open('#works-section', '_self')">BACK TO TOP</button>
+                    <p>"Do what you love and Love what you do"</p>
+                    <p> &#169; Michael Kent P. Sales</p>
+                </footer>
+            </section> 
+        </section>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+    </html>

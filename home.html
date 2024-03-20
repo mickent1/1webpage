@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTS-8">
+    <meta name="Author" content="Mickent Sales">
+
+    <title>My Portfolio</title>
+    <link rel="icon" href="images/profile.jpg">
+
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="media.css"/>
+</head>
+
+    <body>
+        
+    
+        <nav id="desktop-nav">
+            <div class="logo">Michael Kent</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Michael Kent</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>                    
+                    <span></span>                    
+                    <span></span>                    
+                </div>
+                <div class="menu-links">
+                    <ul>
+                    <li><a href="home.html" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                    <li><a href="works.html" onclick="toggleMenu()">Works</a></li>
+                    <li><a href="contact.html" onclick="toggleMenu()">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+                <div class="pf-picture">
+                    <img src="images/aboutme.jpg" alt="Michael Kent's Profile"></div>
+                <div class="section_text">
+                    <p class="section_text_p1">Hi, I'm</p>
+                    <h1 class="title">Michael Kent Sales</h1>
+                    <h3 class="section_text_h3">Ultimate Hobby</h3>
+                
+        <button class="buttons" onclick="window.open('images/cv.pdf', '_blank')">Download CV</button>
+
+        <div class="social-container">
+            <a href="https://www.facebook.com/mickent.sales13" target="_blank"><img src="images/fb.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/mxknt_" target="_blank"><img src="images/ig.png" alt="Instagram"></a>
+        </div>
+
+        <a href="https://www.hitwebcounter.com" target="_blank">
+
+        <div class="view-counter">
+            <a href="https://www.hitwebcounter.com" target="_blank">
+                <img src="https://hitwebcounter.com/counter/counter.php?page=12099257&style=0024&nbdigits=5&type=ip&initCount=25" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>                                     
+        </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>

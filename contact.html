@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Mickent Sales">
+
+    <title>Contact me</title>
+    <link rel="icon" href="profile.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    
+    <nav id="desktop-nav">
+        <div class="logo">Michael Kent</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Michael Kent</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>                    
+                <span></span>                    
+                <span></span>                    
+            </div>
+            <div class="menu-links">
+                <ul>
+                <li><a href="home.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="works.html" onclick="toggleMenu()">Works</a></li>
+                <li><a href="contact.html" onclick="toggleMenu()">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <section id="contact-container">
+            <div class="contact-text">
+                <h2 class="contact-title">CONTACT ME</h2></div>
+                <div class="social-media-container">
+                    <div class="contact-info" onclick="window.open('https://www.facebook.com/mickent.sales13/', '_blank')">
+                        <div class="contact-item">
+                            <img src="images/fb.png" alt="Facebook"></div>
+                            <div class="contact-name">
+                            <h3>SOCIAL MEDIA</h3><p>Facebook Account</p></div>
+                    </div>  
+                    <div class="contact-info" onclick="window.open('https://www.instagram.com/mxknt_/', '_blank')">
+                        <div class="contact-item" >
+                            <img src="images/ig.png" alt="Facebook"></div>
+                            <div class="contact-name">
+                            <h3>SOCIAL MEDIA</h3><p>INSTAGRAM</p></div>
+                    </div>  
+                    <div class="contact-info" onclick="window.open('tel:09704523915', '_blank')">
+                        <div class="contact-item">
+                            <img src="images/call.png" alt="Facebook"></div>
+                            <div class="contact-name">
+                            <h3>PHONE NUMBER</h3></div>
+                    </div>  
+                    <div class="contact-info" onclick="window.open('mailto:mickentx@gmail.com', '_blank')">
+                        <div class="contact-item">
+                            <img src="images/gmail.png" alt="Facebook"></div>
+                            <div class="contact-name">
+                            <h3>GMAIL</h3><p>mickentx@gmail.com</p></div>
+                    </div>  
+                    <div class="contact-info"onclick="window.open('https://maps.app.goo.gl/WDCd9MmLcbbjbnKJ9', '_blank')">
+                        <div class="contact-item">
+                            <img src="images/location.png" alt="Facebook"></div>
+                            <div class="contact-name">
+                            <h3>LOCATION</h3></div>
+                    </div>  
+                </div>
+        </section>
+
+    <script src="script.js"></script>
+</body>
+    </html>
